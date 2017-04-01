@@ -10381,6 +10381,9 @@ figure {
 }
 
 @media (max-width: 767px) {
+  .navbar-dark .navbar-brand {
+    padding: 0;
+  }
   .navbar .nav-item {
     display: none;
   }

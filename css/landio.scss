@@ -1847,6 +1847,9 @@ $linkedin: #0077b5;
 }
 
 @include media-breakpoint-down(sm) {
+  .navbar-dark .navbar-brand{
+    padding: 0;
+  }
  .navbar .nav-item{
    display: none;
  }
