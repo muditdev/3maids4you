@@ -10384,6 +10384,14 @@ figure {
   .navbar .nav-item {
     display: none;
   }
+  .threeMaids-img {
+    min-width: 550px;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+  }
   .navMob {
     display: block;
     text-align: right;

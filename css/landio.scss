@@ -1850,6 +1850,12 @@ $linkedin: #0077b5;
  .navbar .nav-item{
    display: none;
  }
+ .threeMaids-img{
+   min-width: 550px;
+   transform: translateX(-50%);
+   position: relative;
+   left: 50%;
+ }
  .navMob{
    display: block;
    text-align: right;
