@@ -1845,6 +1845,7 @@ $linkedin: #0077b5;
 .navMob{
   display: none;
 }
+
 @include media-breakpoint-down(sm) {
  .navbar .nav-item{
    display: none;

@@ -166,6 +166,14 @@
   background-size: 50px;
 }
 
+.mj-icon-logo-footer {
+  background: url(../img/logo.svg) no-repeat center center;
+  width: 80px;
+  height: 60px;
+  margin: auto;
+  background-size: 80px;
+}
+
 /*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
