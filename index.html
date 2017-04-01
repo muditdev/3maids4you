@@ -19,7 +19,7 @@
     <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="img/logo.png" alt="">
+          <img src="img/logo.svg" alt="">
           <!-- <span class="icon-logo"></span>
           <span class="sr-only">3Maids4You</span> -->
         </a>
@@ -32,11 +32,26 @@
           <ul class="nav navbar-nav pull-xs-right">
 
             <li class="nav-item">
-              <a class="nav-link" href="#">Register as Maid</a>
+              <a class="nav-link visible-md" href="#contactUs">Register as Maid</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Book Maids </a>
+              <a class="nav-link visible-md" href="#contactUs">Book Maids </a>
             </li>
+
+
+
+
+
+
+          </ul>
+          <ul class="nav navbar-nav pull-xs-right navMob">
+
+            <li class="navMob">
+              <a class="nav-link text-right" href="#contactUs">Contact Us</a>
+            </li>
+
+
+
 
 
 
@@ -324,26 +339,26 @@
     <!-- Sign Up
     ================================================== -->
 
-    <section class="section-signup bg-faded">
+    <section class="section-signup bg-faded" id="contactUs">
       <div class="container">
-        <h3 class="text-xs-center m-b-3">Sign up to receive free updates as soon as they hit!</h3>
+        <h3 class="text-xs-center m-b-3">Contact Us</h3>
         <form action='https://www.getform.org/f/b6a70532-afa6-4d64-993d-e50ac69890b2' method="POST">
         <!-- <form action="https://formspree.io/3maids4you@gmail.com" method="post"> -->
           <div class="row">
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6">
               <div class="form-group has-icon-left form-control-name">
                 <label class="sr-only" for="inputName">Your name</label>
                 <input type="text" name="name" class="form-control form-control-lg" id="inputName" placeholder="Your name">
               </div>
             </div>
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6">
               <div class="form-group has-icon-left form-control-email">
                 <label class="sr-only" for="inputEmail">Email address</label>
                 <input type="email" name="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email address" autocomplete="off">
               </div>
             </div>
 
-            <div class="col-md-6 col-xl-4">
+            <div class="col-md-6">
               <div class="form-group has-icon-left form-control-email">
                 <label class="sr-only" for="inputPhone">Phone</label>
                 <input type="phone" name="phone no" class="form-control form-control-lg" id="inputPhone" placeholder="Phone" autocomplete="off">
@@ -355,6 +370,16 @@
                 <input type="password" class="form-control form-control-lg" id="inputPassword" placeholder="Enter a password" autocomplete="off">
               </div>
             </div> -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="sr-only" for="txtarea">I Am</label>
+                <select class="form-control form-control-lg" name="i am" required="" style="height:58px">
+                  <option value="" disabled="">I Am</option>
+                  <option value="maid">Maid</option>
+                  <option value="customer">Customer</option>
+                </select>
+              </div>
+            </div>
 
             <div class="col-md-12">
               <div class="form-group form-control-email">
@@ -363,9 +388,11 @@
               </div>
             </div>
 
+
+
             <div class="col-md-12">
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Sign up for free!</button>
+                <button type="submit" class="btn btn-primary btn-block">Send</button>
               </div>
             </div>
           </div>

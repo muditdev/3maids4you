@@ -257,8 +257,14 @@ $font-family-sans-serif-custom: 'Lato', sans-serif !default;
     display: block !important;
   }
 }
-
+.navbar-brand img{
+  max-height: 125px;
+}
 @include media-breakpoint-down(sm) {
+  // logo
+  .navbar-brand img{
+    max-height: 90px;
+  }
   .navbar-nav {
     float: none !important;
     width: 100%;
@@ -723,7 +729,7 @@ $custom-min-height: 37.5em; // 600
   }
 
   .carousel-caption {
-    top: 20%;
+    top: 40%;
     bottom: auto;
     text-shadow: none;
 
@@ -1832,4 +1838,19 @@ $linkedin: #0077b5;
   }
 
   canvas { width: 170px; }
+}
+
+
+// custom css
+.navMob{
+  display: none;
+}
+@include media-breakpoint-down(sm) {
+ .navbar .nav-item{
+   display: none;
+ }
+ .navMob{
+   display: block;
+   text-align: right;
+ }
 }
